@@ -1,0 +1,50 @@
+[
+  {
+    "name": "get_articles",
+    "description": "Fetch the latest spaceflight news articles sorted by publication date. Returns title, summary, URL, image, and source.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "limit": {
+          "type": "number",
+          "description": "Number of articles to return (default 10, max 100)"
+        }
+      },
+      "required": []
+    }
+  },
+  {
+    "name": "search_articles",
+    "description": "Search spaceflight news articles by keyword. Returns matching articles with title, summary, URL, and publication date.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Search query (e.g. \"SpaceX Starship launch\")"
+        },
+        "limit": {
+          "type": "number",
+          "description": "Number of results to return (default 10, max 100)"
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "name": "get_blogs",
+    "description": "Fetch the latest spaceflight blog posts sorted by publication date. Returns title, summary, URL, image, and source.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "limit": {
+          "type": "number",
+          "description": "Number of blog posts to return (default 10, max 100)"
+        }
+      },
+      "required": []
+    }
+  }
+]
