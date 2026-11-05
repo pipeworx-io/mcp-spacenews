@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-spacenews",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Spacenews MCP — wraps the Spaceflight News API v4 (free, no auth) https://api.spaceflightnewsapi.net/v4",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "spacenews",
     "gatewaySlug": "spacenews",
-    "sourceHash": "v1-977c57e06e5863c888fa9121e4f1eba993284360f755c3618796c8142d460014",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-31da820990f7ccb89536fc7c1006d444c2f996819af6bc9a2d4a3c2a97456395",
+    "sourceCommit": "8fc802aa5e23be625ce08d97178f5676c7bc93f3"
   }
 }
